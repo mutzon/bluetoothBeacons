@@ -58,6 +58,7 @@ public class Ibeacon_RangingActivity extends Activity implements BeaconConsumer 
 
     @Override
     public void onBeaconServiceConnect() {
+
         beaconManager.setRangeNotifier(new RangeNotifier() {
             @Override
             public void didRangeBeaconsInRegion(Collection<Beacon> beacons, Region region) {
