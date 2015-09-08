@@ -16,6 +16,8 @@ import org.altbeacon.beacon.Region;
 
 import java.util.Collection;
 
+/// test Dennis Commit ///
+
 public class Ibeacon_RangingActivity extends Activity implements BeaconConsumer {
     private static final String BEACON_MONITORING_ID ="pitlab";
     private static final String BEACON_LAYOUT = "m:2-3=0215,i:4-19,i:20-21,i:22-23,p:24-24";
