@@ -16,7 +16,7 @@ import org.altbeacon.beacon.Region;
 
 import java.util.Collection;
 
-/// test Dennis Commit  Martin commit as well  ///
+/// test Dennis Commit    ///
 
 public class Ibeacon_RangingActivity extends Activity implements BeaconConsumer {
     private static final String BEACON_MONITORING_ID ="pitlab";
